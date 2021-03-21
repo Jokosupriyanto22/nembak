@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuucapkan selamat ulang tahun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script type="text/javascript">
+    fl = 1
+
+    function f1() {
+        alert("Terima kasih yaaa... Semoga hubungan kita bisa harmonis... ")
+    }
+
+    function bn() {
+        alert("Terimakasih udah mau buka web ini")
+    }
+
+    function f() {
+        if (fl == 1) {
+            Bn.style.top = 90
+            Bn.style.left = 500
+            fl = 2
+        } else if (fl == 2) {
+            Bn.style.top = 90
+            Bn.style.left = 50
+            fl = 3
+        } else if (fl == 3) {
+            Bn.style.top = 235
+            Bn.style.left = 360
+            fl = 1
+        }
+    }
+</script>
+<style type="text/css">
+    .box-password {
+        font-size: 24px;
+        width: 600px;
+        height: 50px;
+        border: 1px solid #FF7418;
+        border-radius: 5px 5px 5px 5px;
+        color: #fff;
+        cursor: default;
+        padding: 1px 0;
+        text-align: center;
+        -webkit-transition: 0.35s linear;
+        -moz-transition: 0.35s linear;
+        -o-transition: 0.35s linear;
+        outline: 0;
+        background: black
+    }
+    
+    .box-password:hover {
+        background: black;
+        color: orange;
+        border: 1px solid #FF7418;
+    }
+    
+    .box-password:focus {
+        background: red;
+        color: red;
+        border: 1px solid #FF7418;
+    }
+    
+    .style1 {
+        color: #ffffff;
+        font-size: 24px;
+    }
+    
+    .style2 {
+        color: #000;
+        font-size: 18px;
+    }
+    
+    .style3 {
+        color: #1400C8;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    .yes-btn {
+        position: absolute;
+        left: 615px;
+        top: 380px;
+        width: 50px;
+        height: 198px;
+    }
+    
+    .no-btn {
+        position: absolute;
+        left: 688px;
+        top: 380px;
+        width: 210px;
+        height: 210px;
+    }
+    
+    @media (max-width: 576px) {
+        .box-password {
+            font-size: 15px;
+            width: 100%;
+        }
+        .yes-btn {
+            left: 100px;
+            top: 600px;
+        }
+        .no-btn {
+            left: 235px;
+            top: 600px;
+        }
+    }
+    
+    @media (max-width: 375px) {
+        .box-password {
+            font-size: 14px;
+            width: 100%;
+        }
+    }
+</style>
+</head>
+
+<body background='background.gif'>
+    <h1>Happy Birthday </h1>
+    <div id="By" class="yes-btn">
+
+        <input type="button" value=" YES " onClick="f1()" />
+    </div>
+    <div id="Bn" class="no-btn">
+        <input name="button" type="button" onclick="bn()" value=" NO " />
+    </div>
+    <hr>
+    <p align="center" class="style1">SELAMAT DATANG KEKASIH HATIKU ^_^</p>
+    <hr>
+    <hr>
+    <p align="center" class="style2">Sejak Pertama Mengenalmu, batapa senang hatiku...!!!</p>
+    <p align="center" class="style2">Tapi rasaku ini tak pernah sampai kehatimu dengan nyali dan lisan yang kupunya</p>
+    <p align="center" class="style2">Dan sebenarnya, rasa ini tak pernah bohong untuk memungkiri semua ini</p>
+    <p align="center" class="style2">Maka dari itu, kutempuh belajar HTML untuk menyuntikkan kode script ini kelubuk hatimu </p>
+    <p align="center" class="style2">Sekarang waktunya kusampaikan ini...</p>
+    <center><input class="box-password" onclick="select()" type="text" value="MAUKAH KAMU MENJADI KEKASIH HATIKU ?????" />
+    </center>
+    <footer>
+
+        <a target='_blank'><img alt='Love' src='love.gif' title='I Love You' /></a>
+        <br>
+
+        <marquee scrollamount="5" scrolldelay="50" width="80%">
+            <font color="RED" face="gothic" size="4">By Joko Suprianto</b>
+            </font>
+        </marquee><br>
+
+        <font color="white" face="ARIALBLACK">
+            <marquee direction="left" loop="true" scrollamount="300"><b>____________________
+            
+            _______________________</b></marquee>
+        </font>
+        <script type="text/javascript">
+        </script>
+    </footer>
+</body>
+
+</html>
